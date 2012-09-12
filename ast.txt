@@ -1,0 +1,37 @@
+{
+    'reader':
+        [
+            96,
+            'http://ardownload.adobe.com/pub/adobe/reader/win/10.x/10.1.4/en_US/AdbeRdr1014_en_US.exe',
+            '/msi EULA_ACCEPT=YES /qn'
+        ],
+    
+    'flashx':
+        [
+            96,
+            'http://download.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_11_active_x.exe',
+            '-install'
+        ],
+        
+    'flashp':
+        [
+            96,
+            'http://download.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_11_plugin.exe',
+            '-install'
+        ],
+        
+    'java32':
+        [
+            32,
+            'http://javadl.sun.com/webapps/download/AutoDL?BundleId=68735',
+            "/s IEXPLORER=1 MOZILLA=1"
+        ],
+        
+    'java64':
+        [
+            64,
+            'http://javadl.sun.com/webapps/download/AutoDL?BundleId=68736',
+            "/s IEXPLORER=1 MOZILLA=1"
+        ],
+}
+
