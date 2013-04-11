@@ -2,6 +2,8 @@
 Michael Allen C. Isaac <michael@thedevel.com>
 Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
 http://creativecommons.org/licenses/by-nc-sa/3.0/
+
+Requires Python 3.3 and all of the imports.
 '''
 
 import sys
@@ -65,6 +67,8 @@ class AutomateIt():
 
         return
 
-app = AutomateIt()
-app.Execute()
+if __name__ == '__main__':
+    app = AutomateIt()
+    app.Execute()
+
 
